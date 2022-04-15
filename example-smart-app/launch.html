@@ -26,8 +26,9 @@
     <script src='./lib/js/fhir-client-cerner-additions-1.0.0.js'></script>
     <script>
       FHIR.oauth2.authorize({
-        'client_id': 'enX5dCy4KfSV8UeGhI-XOO_MtrQCdo8LJ254vlnzw_Y',
-        'scope': "openid fhirUser online_access launch launch/patient api:oemr api:fhir api:port profile name address given_name family_name nickname phone phone_verified email email_verified site:default patient/AllergyIntolerance.read patient/CarePlan.read patient/CareTeam.read patient/Condition.read patient/Device.read patient/DiagnosticReport.read patient/DocumentReference.read patient/Encounter.read patient/Goal.read patient/Immunization.read patient/Location.read patient/Medication.read patient/MedicationRequest.read patient/Observation.read patient/Organization.read patient/Patient.read patient/Person.read patient/Practitioner.read patient/Procedure.read patient/Provenance.read"
+        'client_id': 'H3dUWhqsr9ovspVtgrMt-0PY5aw0ce2T_nV_Np0zPpk',
+        'clientSecret' : 'xz2WIcF3ujVtRbC9Vri9_DfFtsLA-2IExCNcb9AcUePOlk-Yu96GLlrxHs9o90hZb4UyXGwWNs9ZZhQ-LZ_PMw',
+        'scope': 'openid fhirUser online_access offline_access launch launch/patient api:oemr api:fhir api:port profile name address given_name family_name nickname phone phone_verified email email_verified site:default patient/AllergyIntolerance.read patient/CarePlan.read patient/CareTeam.read patient/Condition.read patient/Device.read patient/DiagnosticReport.read patient/DocumentReference.read patient/Encounter.read patient/Goal.read patient/Immunization.read patient/Location.read patient/Medication.read patient/MedicationRequest.read patient/Observation.read patient/Organization.read patient/Patient.read patient/Person.read patient/Practitioner.read patient/Procedure.read patient/Provenance.read user/AllergyIntolerance.read user/CarePlan.read user/CareTeam.read user/Condition.read user/Coverage.read user/Device.read user/DiagnosticReport.read user/DocumentReference.read user/Encounter.read user/Goal.read user/Immunization.read user/Location.read user/Medication.read user/MedicationRequest.read user/Observation.read user/Organization.read user/Organization.write user/Patient.read user/Patient.write user/Person.read user/Practitioner.read user/Practitioner.write user/PractitionerRole.read user/Procedure.read user/Provenance.read'
       });
     </script>
     <div class="spinner">
